@@ -1,0 +1,28 @@
+﻿# Flutter & Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+*.iml
+*.lock
+.pub-cache/
+
+# Local env & secrets
+.env
+*.keystore
+*.jks
+
+# Node / backend (do not include backend files)
+event-checkin-api/
+server*.js
+node_modules/
+package-lock.json
+npm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
